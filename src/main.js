@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import utils from './utils'
+
+Vue.prototype.$utils = utils;
 
 Vue.config.productionTip = false
 
